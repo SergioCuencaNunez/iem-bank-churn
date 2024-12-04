@@ -64,11 +64,20 @@ This project focuses on the **analysis and segmentation of credit card customers
 
 ## Results
 
+### Class 0 (Non-Churned Customers)
 | Metric         | CART  | Random Forest | Boosting | Neural Networks |
 |----------------|-------|---------------|----------|-----------------|
 | Precision      | 97%   | 97%           | 98%      | 94%             |
-| Recall         | 94%   | 99%           | 98%      | 93%             |
+| Recall         | 94%   | 99%           | 98%      | 98%             |
 | F1-Score       | 96%   | 98%           | 98%      | 96%             |
+| Accuracy       | 93%   | 96%           | 97%      | 93%             |
+
+### Class 1 (Churned Customers)
+| Metric         | CART  | Random Forest | Boosting | Neural Networks |
+|----------------|-------|---------------|----------|-----------------|
+| Precision      | 74%   | 92%           | 91%      | 85%             |
+| Recall         | 87%   | 83%           | 90%      | 68%             |
+| F1-Score       | 80%   | 87%           | 90%      | 76%             |
 | Accuracy       | 93%   | 96%           | 97%      | 93%             |
 
 ## Tools and Technologies
